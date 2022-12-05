@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 575px;
+    height: 420px;
+    background: #1B244A;
+}
+h3 {
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:white;
+}
+#new_game {
+    position:absolute;
+    font-size:20px;
+    top:370px;
+}
+.left_box,
+.right_box{
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    top: 125px;
+    background-color: black;  
+} 
+
+
+#one_point_left, 
+#two_points_left, 
+#three_points_left,
+#one_point_right,
+#two_points_right, 
+#three_points_right {
+    font-size:29px;
+}
+
+#score_left, 
+#score_right {
+    width: 150px;
+    height: 120px;
+    left: 355px;
+    top: 125px;
+
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    /* or 141% */
+
+    text-align: center;
+
+    color: #F94F6D;
+}
+
+#add_right, 
+#add_left {
+    margin-top:15px;
+}
